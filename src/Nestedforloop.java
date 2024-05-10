@@ -12,19 +12,14 @@ public class Nestedforloop {
 
 	public static void main(String[] args) {
 		
-//		HashMap<Integer, String> hp = new HashMap<Integer, String>();
-//		hp.put(0, "Ramu");
-//		hp.put(1, "Shyam");
-//		hp.put(2, "Pawan");
-//		hp.put(3, "Rahul");
-//		System.out.println(hp.get(1));
-//		Set s = hp.entrySet();
-//		Iterator<String> it = s.iterator();
-//		while(it.hasNext()) {
-//			Map.Entry mp = (Map.Entry)it.hasNext();
-//			System.out.println(mp.getKey());
-//			System.out.println(mp.getValue());
-		
+		HashMap<Integer, String> hp = new HashMap<Integer, String>();
+		hp.put(0, "Ramu");
+		hp.put(1, "Shyam");
+		hp.put(2, "Pawan");
+		hp.put(3, "Rahul");
+		System.out.println(hp.get(1));
+		System.out.println(hp.get(2));	
+		System.out.println(hp.get(3));	
 		int [] a= {4,6,4,5,9,5,4,6,5};
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		
